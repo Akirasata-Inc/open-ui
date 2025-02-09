@@ -648,7 +648,7 @@
     --foreground-utility-active: var(--theme-foreground-utility-active);
 }
 
-[data-theme="secondary"] {
+[data-appereance="secondary"] {
     /* System */
     --appereance-system-default: var(--theme-background-system-container-default);
     --appereance-system-hover: var(--theme-background-system-container-hover);
@@ -698,7 +698,7 @@
     --appereance-utility-on-utility: var(--theme-foreground-utility-default);
 }
 
-[data-theme="ghost"] {
+[data-appereance="ghost"] {
     /* System */
     --appereance-system-default: var(--color-0);
     --appereance-system-hover: var(--theme-background-system-container-hover);
@@ -748,18 +748,32 @@
     --appereance-utility-on-utility: var(--theme-foreground-utility-default);
 }
 
-.button-accent {
+.accent {
     background-color: var(--surface-accent-container-default);
     color: var(--foreground-accent-on-accent);
     transition: all .15s ease-in-out;
 }
 
-.button-accent:hover {
+.accent:hover {
     background-color: var(--surface-accent-hover);
     color: var(--foreground-accent-hover);
 }
 
-.button-accent:active {
+.accent:active {
     background-color: var(--surface-accent-active);
     color: var(--foreground-accent-active);
+}
+
+.positive {
+    background-color: var(--surface-positive-default);
+    color: var(--foreground-positive-on-positive);
+    transition: all .15s ease-in-out;
+}
+
+.positive:hover {
+    background-color: var(--surface-positive-hover);
+}
+
+.positive:active {
+    background-color: var(--surface-positive-active);
 }
