@@ -59,11 +59,11 @@
     --color-orange-250: #FD926B;
     --color-orange-300: #FC7C4E;
     --color-orange-400: #FC6730;
-    --color-orange-500-4A: rgba(#FB5012, .04);
-    --color-orange-500-8A: rgba(#FB5012, .08);
-    --color-orange-500-16A: rgba(#FB5012, .16);
-    --color-orange-500-24A: rgba(#FB5012, .24);
-    --color-orange-500-32A: rgba(#FB5012, .32);
+    --color-orange-500-4A: rgba(251, 80, 18, .04);
+    --color-orange-500-8A: rgba(251, 80, 18, .08);
+    --color-orange-500-16A: rgba(251, 80, 18, .16);
+    --color-orange-500-24A: rgba(251, 80, 18, .24);
+    --color-orange-500-32A: rgba(251, 80, 18, .32);
     --color-orange-500-100A: #FB5012;
     --color-orange-600: #E94104;
     --color-orange-700: #C83703;
@@ -359,11 +359,11 @@
     --theme-background-accent-default: var(--semantic-accent-500-100A);
     --theme-background-accent-hover: var(--semantic-accent-300);
     --theme-background-accent-active: var(--semantic-accent-200);
-    --theme-background-accent-container-default: var(--semantic-accent-50-16A);
-    --theme-background-accent-container-soft: var(--semantic-accent-50-8A);
-    --theme-background-accent-container-muted: var(--semantic-accent-50-4A);
-    --theme-background-accent-container-hover: var(--semantic-accent-50-24A);
-    --theme-background-accent-container-active: var(--semantic-accent-50-32A);
+    --theme-background-accent-container-default: var(--semantic-accent-500-16A);
+    --theme-background-accent-container-soft: var(--semantic-accent-500-8A);
+    --theme-background-accent-container-muted: var(--semantic-accent-500-4A);
+    --theme-background-accent-container-hover: var(--semantic-accent-500-24A);
+    --theme-background-accent-container-active: var(--semantic-accent-500-32A);
  
     /* Positive */
     --theme-background-positive-default: var(--semantic-positive-500-100A);
@@ -648,7 +648,7 @@
     --foreground-utility-active: var(--theme-foreground-utility-active);
 }
 
-:root[data-theme="secondary"] {
+[data-theme="secondary"] {
     /* System */
     --appereance-system-default: var(--theme-background-system-container-default);
     --appereance-system-hover: var(--theme-background-system-container-hover);
