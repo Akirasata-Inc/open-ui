@@ -648,7 +648,7 @@
     --foreground-utility-active: var(--theme-foreground-utility-active);
 }
 
-:root[data-appereance="secondary"] {
+[data-appereance="secondary"] {
     /* System */
     --appereance-system-default: var(--theme-background-system-container-default);
     --appereance-system-hover: var(--theme-background-system-container-hover);
@@ -698,7 +698,7 @@
     --appereance-utility-on-utility: var(--theme-foreground-utility-default);
 }
 
-:root[data-appereance="ghost"] {
+[data-appereance="ghost"] {
     /* System */
     --appereance-system-default: var(--color-0);
     --appereance-system-hover: var(--theme-background-system-container-hover);
