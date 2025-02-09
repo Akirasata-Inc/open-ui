@@ -751,7 +751,7 @@
 .button-accent {
     background-color: var(--surface-accent-default);
     color: var(--foreground-accent-on-accent);
-    transition: all .3s ease-in-out;
+    transition: all .15s ease-in-out;
 }
 
 .button-accent:hover {
