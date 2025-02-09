@@ -22,11 +22,11 @@
     --color-grey-800: #3A3C41;
     --color-grey-850: #2B2E32;
     --color-grey-900: #1E2024;
-    --color-grey-950-4A: rgba(#111317, .04);
-    --color-grey-950-8A: rgba(#111317, .08);
-    --color-grey-950-16A: rgba(#111317. .16);
-    --color-grey-950-24A: rgba(#111317, .24);
-    --color-grey-950-32A: rgba(#111317, .32);
+    --color-grey-950-4A: rgba(17, 19, 23, .04);
+    --color-grey-950-8A: rgba(17, 19, 23, .08);
+    --color-grey-950-16A: rgba(17, 19, 23, .16);
+    --color-grey-950-24A: rgba(17, 19, 23, .24);
+    --color-grey-950-32A: rgba(17, 19, 23, .32);
     --color-grey-950-100A: #111317;
 
     /* Red */
