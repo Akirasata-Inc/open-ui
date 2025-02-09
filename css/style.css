@@ -756,8 +756,10 @@
 
 .button-accent:hover {
     background-color: var(--surface-accent-hover);
+    color: var(--foreground-accent-hover);
 }
 
 .button-accent:active {
     background-color: var(--surface-accent-active);
+    color: var(--foreground-accent-active);
 }
