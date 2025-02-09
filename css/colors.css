@@ -1,6 +1,5 @@
-/* Brand */
 :root {
-
+    /* Brand */
     --color-0: transparent;
 
     /* Grey */
@@ -322,22 +321,20 @@
     --semantic-utility-850: var(--color-purple-850);
     --semantic-utility-900: var(--color-purple-900);
     --semantic-utility-950: var(--color-purple-950);
-}
 
-/* Theme */
-:root {
+    /* Theme */
     /* Backround */
-    --theme-background-base: var(--semantic--system-950-100A);
-    --theme-background-xL: var(--semantic-system-900);
-    --theme-background-L: var(--semantic-system-850);
-    --theme-background-M: var(--semantic-system-800);
-    --theme-background-S: var(--semantic-system-750);
-    --theme-background-elevated: var(--semantic-system-700);
-    --theme-background-contrast: var(--semantic-system-100);
-    --theme-background-static-dark: var(--semantic-system-950-100A);
-    --theme-background-static-light: var(--semantic-system-50-100A);
-    --theme-background-disabled: var(--semantic-system-50-8A);
-
+     --theme-background-base: var(--semantic--system-950-100A);
+     --theme-background-xL: var(--semantic-system-900);
+     --theme-background-L: var(--semantic-system-850);
+     --theme-background-M: var(--semantic-system-800);
+     --theme-background-S: var(--semantic-system-750);
+     --theme-background-elevated: var(--semantic-system-700);
+     --theme-background-contrast: var(--semantic-system-100);
+     --theme-background-static-dark: var(--semantic-system-950-100A);
+     --theme-background-static-light: var(--semantic-system-50-100A);
+     --theme-background-disabled: var(--semantic-system-50-8A);
+ 
     /* System */
     --theme-background-system-default: var(--semantic-system-50-100A);
     --theme-background-system-hover: var(--semantic-system-200);
@@ -347,7 +344,7 @@
     --theme-background-system-container-muted: var(--semantic-system-50-4A);
     --theme-background-system-container-hover: var(--semantic-system-50-24A);
     --theme-background-system-container-active: var(--semantic-system-50-32A);
-
+ 
     /* Neutral */
     --theme-background-neutral-default: var(--semantic-system-50-100A);
     --theme-background-neutral-hover: var(--semantic-system-200);
@@ -357,7 +354,7 @@
     --theme-background-neutral-container-muted: var(--semantic-system-50-4A);
     --theme-background-neutral-container-hover: var(--semantic-system-50-24A);
     --theme-background-neutral-container-active: var(--semantic-system-50-32A);
-
+ 
     /* Accent */
     --theme-background-accent-default: var(--semantic-accent-500-100A);
     --theme-background-accent-hover: var(--semantic-accent-300);
@@ -367,7 +364,7 @@
     --theme-background-accent-container-muted: var(--semantic-accent-50-4A);
     --theme-background-accent-container-hover: var(--semantic-accent-50-24A);
     --theme-background-accent-container-active: var(--semantic-accent-50-32A);
-
+ 
     /* Positive */
     --theme-background-positive-default: var(--semantic-positive-500-100A);
     --theme-background-positive-hover: var(--semantic-positive-300);
@@ -377,7 +374,7 @@
     --theme-background-positive-container-muted: var(--semantic-positive-50-4A);
     --theme-background-positive-container-hover: var(--semantic-positive-50-24A);
     --theme-background-positive-container-active: var(--semantic-positive-50-32A);
-
+ 
     /* Negative */
     --theme-background-negative-default: var(--semantic-negative-500-100A);
     --theme-background-negative-hover: var(--semantic-negative-300);
@@ -387,7 +384,7 @@
     --theme-background-negative-container-muted: var(--semantic-negative-50-4A);
     --theme-background-negative-container-hover: var(--semantic-negative-50-24A);
     --theme-background-negative-container-active: var(--semantic-negative-50-32A);
-
+ 
     /* Warning */
     --theme-background-warning-default: var(--semantic-warning-500-100A);
     --theme-background-warning-hover: var(--semantic-warning-300);
@@ -397,7 +394,7 @@
     --theme-background-warning-container-muted: var(--semantic-warning-50-4A);
     --theme-background-warning-container-hover: var(--semantic-warning-50-24A);
     --theme-background-warning-container-active: var(--semantic-warning-50-32A);
-
+ 
     /* Info */
     --theme-background-info-default: var(--semantic-info-500-100A);
     --theme-background-info-hover: var(--semantic-info-300);
@@ -407,7 +404,7 @@
     --theme-background-info-container-muted: var(--semantic-info-50-4A);
     --theme-background-info-container-hover: var(--semantic-info-50-24A);
     --theme-background-info-container-active: var(--semantic-info-50-32A);
-
+ 
     /* Utility */
     --theme-background-utility-default: var(--semantic-utility-500-100A);
     --theme-background-utility-hover: var(--semantic-utility-300);
@@ -416,8 +413,8 @@
     --theme-background-utility-container-soft: var(--semantic-utility-50-8A);
     --theme-background-utility-container-muted: var(--semantic-utility-50-4A);
     --theme-background-utility-container-hover: var(--semantic-utility-50-24A);
-    --theme-background-utility-container-active: var(--semantic-utility-50-32A);
-
+     --theme-background-utility-container-active: var(--semantic-utility-50-32A);
+ 
     /* Foreground */
     --theme-foreground-primary: var(--semantic-system-50-100A);
     --theme-foreground-soft: var(--semantic-system-200);
@@ -426,58 +423,56 @@
     --theme-foreground-static-dark: var(--semantic-system-50-100A);
     --theme-foreground-static-light: var(--semantic-system-950-100A);
     --theme-foreground-disabled: var(--semantic-system-50-16A);
-
+ 
     /* System */
     --theme-foreground-system-on-background: var(--semantic-system-950-100A);
     --theme-foreground-system-default: var(--theme-background-system-default);
     --theme-foreground-system-hover: var(--theme-background-system-hover);
     --theme-foreground-system-active: var(--theme-background-system-active);
-
+ 
     /* Neutral */
     --theme-foreground-neutral-on-background: var(--semantic-system-50-100A);
     --theme-foreground-neutral-default: var(--theme-background-neutral-default);
     --theme-foreground-neutral-hover: var(--theme-background-neutral-hover);
     --theme-foreground-neutral-active: var(--theme-background-neutral-active);
-
+ 
     /* Accent */
     --theme-foreground-accent-on-background: var(--semantic-accent-950);
     --theme-foreground-accent-default: var(--theme-background-accent-default);
     --theme-foreground-accent-hover: var(--theme-background-accent-hover);
     --theme-foreground-accent-active: var(--theme-background-accent-active);
-
+ 
     /* Positive */
     --theme-foreground-positive-on-background: var(--semantic-postivie-950);
     --theme-foreground-positive-default: var(--theme-background-positive-default);
     --theme-foreground-positive-hover: var(--theme-background-positive-hover);
     --theme-foreground-positive-active: var(--theme-background-positive-active);
-
+ 
     /* Negative */
     --theme-foreground-negative-on-background: var(--semantic-negative-950);
     --theme-foreground-negative-default: var(--theme-background-negative-default);
     --theme-foreground-negative-hover: var(--theme-background-negative-hover);
     --theme-foreground-negative-active: var(--theme-background-negative-active);
-
+ 
     /* Warning */
     --theme-foreground-warning-on-background: var(--semantic-warning-950);
     --theme-foreground-warning-default: var(--theme-background-warning-default);
     --theme-foreground-warning-hover: var(--theme-background-warning-hover);
     --theme-foreground-warning-active: var(--theme-background-warning-active);
-
+ 
     /* Info */
     --theme-foreground-info-on-background: var(--semantic-info-950);
     --theme-foreground-info-default: var(--theme-background-info-default);
     --theme-foreground-info-hover: var(--theme-background-info-hover);
     --theme-foreground-info-active: var(--theme-background-info-active);
-
+ 
     /* Utility */
     --theme-foreground-utility-on-background: var(--semantic-utility-950);
     --theme-foreground-utility-default: var(--theme-background-utility-default);
     --theme-foreground-utility-hover: var(--theme-background-utility-hover);
     --theme-foreground-utility-active: var(--theme-background-utility-active);
-}
 
-/* Appereance */
-:root [appereance=primary] {
+    /* Appereance */
     /* System */
     --appereance-system-default: var(--theme-background-system-default);
     --appereance-system-hover: var(--theme-background-system-hover);
@@ -525,110 +520,8 @@
     --appereance-utility-hover: var(--theme-background-utility-hover);
     --appereance-utility-active: var(--theme-background-utility-active);
     --appereance-utility-on-utility: var(--theme-foreground-utility-on-utility);
-}
 
-:root [appereance=secondary] {
-    /* System */
-    --appereance-system-default: var(--theme-background-system-container-default);
-    --appereance-system-hover: var(--theme-background-system-container-hover);
-    --appereance-system-active: var(--theme-background-system-container-active);
-    --appereance-system-on-system: var(--theme-foreground-system-default);
-
-    /* Neutral */
-    --appereance-neutral-default: var(--theme-background-neutral-container-default);
-    --appereance-neutral-hover: var(--theme-background-neutral-container-hover);
-    --appereance-neutral-active: var(--theme-background-neutral-container-active);
-    --appereance-neutral-on-neutral: var(--theme-foreground-neutral-default);
-
-    /* Accent */
-    --appereance-accent-default: var(--theme-background-accent-container-default);
-    --appereance-accent-hover: var(--theme-background-accent-container-hover);
-    --appereance-accent-active: var(--theme-background-accent-container-active);
-    --appereance-accent-on-accent: var(--theme-foreground-accent-default);
-
-    /* Positive */
-    --appereance-positive-default: var(--theme-background-positive-container-default);
-    --appereance-positive-hover: var(--theme-background-positive-container-hover);
-    --appereance-positive-active: var(--theme-background-positive-conintainer-active);
-    --appereance-positive-on-positive: var(--theme-foreground-positive-default);
-
-    /* Negative */
-    --appereance-negative-default: var(--theme-backround-negative-container-default);
-    --appereance-negative-hover: var(--theme-background-negative-container-hover);
-    --appereance-negative-active: var(--theme-background-negative-container-active);
-    --appereance-negative-on-negative: var(--theme-foreground-negative-default);
-
-    /* Warning */
-    --appereance-warning-default: var(--theme-background-warning-container-default);
-    --appereance-warning-hover: var(--theme-background-warning-container-hover);
-    --appereance-warning-active: var(--theme-background-warning-container-active);
-    --appereance-warning-on-warning: var(--theme-foreground-warning-default);
-
-    /* Info */
-    --appereance-info-default: var(--theme-background-info-container-default);
-    --appereance-info-hover: var(--theme-background-info-container-hover);
-    --appereance-info-active: var(--theme-background-info-container-active);
-    --appereance-info-on-info: var(--theme-foreground-info-default);
-
-    /* Utility */
-    --appereance-utility-default: var(--theme-background-utility-container-default);
-    --appereance-utility-hover: var(--theme-background-utility-container-hover);
-    --appereance-utility-active: var(--theme-background-utility-container-active);
-    --appereance-utility-on-utility: var(--theme-foreground-utility-default);
-}
-
-:root [appereance=ghost] {
-    /* System */
-    --appereance-system-default: var(--color-0);
-    --appereance-system-hover: var(--theme-background-system-container-hover);
-    --appereance-system-active: var(--theme-background-system-active);
-    --appereance-system-on-system: var(--theme-foreground-system-default);
-
-    /* Neutral */
-    --appereance-neutral-default: var(--color-0);
-    --appereance-neutral-hover: var(--theme-background-neutral-container-hover);
-    --appereance-neutral-active: var(--theme-background-neutral-active);
-    --appereance-neutral-on-neutral: var(--theme-foreground-neutral-default);
-
-    /* Accent */
-    --appereance-accent-default: var(--color-0);
-    --appereance-accent-hover: var(--theme-background-accent-container-hover);
-    --appereance-accent-active: var(--theme-background-accent-active);
-    --appereance-accent-on-accent: var(--theme-foreground-accent-default);
-
-    /* Positive */
-    --appereance-positive-default: var(--color-0);
-    --appereance-positive-hover: var(--theme-background-positive-container-hover);
-    --appereance-positive-active: var(--theme-background-positive-active);
-    --appereance-positive-on-positive: var(--theme-foreground-positive-default);
-
-    /* Negative */
-    --appereance-negative-default: var(--color-0);
-    --appereance-negative-hover: var(--theme-background-negative-container-hover);
-    --appereance-negative-active: var(--theme-background-negative-active);
-    --appereance-negative-on-negative: var(--theme-foreground-negative-default);
-
-    /* Warning */
-    --appereance-warning-default: var(--color-0);
-    --appereance-warning-hover: var(--theme-background-warning-container-hover);
-    --appereance-warning-active: var(--theme-background-warning-active);
-    --appereance-warning-on-warning: var(--theme-foreground-warning-default);
-
-    /* Info */
-    --appereance-info-default: var(--color-0);
-    --appereance-info-hover: var(--theme-background-info-container-hover);
-    --appereance-info-active: var(--theme-background-info-active);
-    --appereance-info-on-info: var(--theme-foreground-info-default);
-
-    /* Utility*/
-    --appereance-utility-default: var(--color-0);
-    --appereance-utility-hover: var(--theme-background-utility-container-hover);
-    --appereance-utility-active: var(--theme-background-utility-active);
-    --appereance-utility-on-utility: var(--theme-foreground-utility-default);
-}
-
-/* Tokens */
-:root {
+        /* Tokens */
     /* Surface */
     --surface-base: var(--theme-background-base);
     --surface-xL: var(--theme-background-xL);
@@ -753,4 +646,104 @@
     --foreground-utility-default: var(--theme-foreground-utility-default);
     --foreground-utility-hover: var(--theme-foreground-utility-hover);
     --foreground-utility-active: var(--theme-foreground-utility-active);
+}
+
+:root [appereance=secondary] {
+    /* System */
+    --appereance-system-default: var(--theme-background-system-container-default);
+    --appereance-system-hover: var(--theme-background-system-container-hover);
+    --appereance-system-active: var(--theme-background-system-container-active);
+    --appereance-system-on-system: var(--theme-foreground-system-default);
+
+    /* Neutral */
+    --appereance-neutral-default: var(--theme-background-neutral-container-default);
+    --appereance-neutral-hover: var(--theme-background-neutral-container-hover);
+    --appereance-neutral-active: var(--theme-background-neutral-container-active);
+    --appereance-neutral-on-neutral: var(--theme-foreground-neutral-default);
+
+    /* Accent */
+    --appereance-accent-default: var(--theme-background-accent-container-default);
+    --appereance-accent-hover: var(--theme-background-accent-container-hover);
+    --appereance-accent-active: var(--theme-background-accent-container-active);
+    --appereance-accent-on-accent: var(--theme-foreground-accent-default);
+
+    /* Positive */
+    --appereance-positive-default: var(--theme-background-positive-container-default);
+    --appereance-positive-hover: var(--theme-background-positive-container-hover);
+    --appereance-positive-active: var(--theme-background-positive-conintainer-active);
+    --appereance-positive-on-positive: var(--theme-foreground-positive-default);
+
+    /* Negative */
+    --appereance-negative-default: var(--theme-backround-negative-container-default);
+    --appereance-negative-hover: var(--theme-background-negative-container-hover);
+    --appereance-negative-active: var(--theme-background-negative-container-active);
+    --appereance-negative-on-negative: var(--theme-foreground-negative-default);
+
+    /* Warning */
+    --appereance-warning-default: var(--theme-background-warning-container-default);
+    --appereance-warning-hover: var(--theme-background-warning-container-hover);
+    --appereance-warning-active: var(--theme-background-warning-container-active);
+    --appereance-warning-on-warning: var(--theme-foreground-warning-default);
+
+    /* Info */
+    --appereance-info-default: var(--theme-background-info-container-default);
+    --appereance-info-hover: var(--theme-background-info-container-hover);
+    --appereance-info-active: var(--theme-background-info-container-active);
+    --appereance-info-on-info: var(--theme-foreground-info-default);
+
+    /* Utility */
+    --appereance-utility-default: var(--theme-background-utility-container-default);
+    --appereance-utility-hover: var(--theme-background-utility-container-hover);
+    --appereance-utility-active: var(--theme-background-utility-container-active);
+    --appereance-utility-on-utility: var(--theme-foreground-utility-default);
+}
+
+:root [appereance=ghost] {
+    /* System */
+    --appereance-system-default: var(--color-0);
+    --appereance-system-hover: var(--theme-background-system-container-hover);
+    --appereance-system-active: var(--theme-background-system-active);
+    --appereance-system-on-system: var(--theme-foreground-system-default);
+
+    /* Neutral */
+    --appereance-neutral-default: var(--color-0);
+    --appereance-neutral-hover: var(--theme-background-neutral-container-hover);
+    --appereance-neutral-active: var(--theme-background-neutral-active);
+    --appereance-neutral-on-neutral: var(--theme-foreground-neutral-default);
+
+    /* Accent */
+    --appereance-accent-default: var(--color-0);
+    --appereance-accent-hover: var(--theme-background-accent-container-hover);
+    --appereance-accent-active: var(--theme-background-accent-active);
+    --appereance-accent-on-accent: var(--theme-foreground-accent-default);
+
+    /* Positive */
+    --appereance-positive-default: var(--color-0);
+    --appereance-positive-hover: var(--theme-background-positive-container-hover);
+    --appereance-positive-active: var(--theme-background-positive-active);
+    --appereance-positive-on-positive: var(--theme-foreground-positive-default);
+
+    /* Negative */
+    --appereance-negative-default: var(--color-0);
+    --appereance-negative-hover: var(--theme-background-negative-container-hover);
+    --appereance-negative-active: var(--theme-background-negative-active);
+    --appereance-negative-on-negative: var(--theme-foreground-negative-default);
+
+    /* Warning */
+    --appereance-warning-default: var(--color-0);
+    --appereance-warning-hover: var(--theme-background-warning-container-hover);
+    --appereance-warning-active: var(--theme-background-warning-active);
+    --appereance-warning-on-warning: var(--theme-foreground-warning-default);
+
+    /* Info */
+    --appereance-info-default: var(--color-0);
+    --appereance-info-hover: var(--theme-background-info-container-hover);
+    --appereance-info-active: var(--theme-background-info-active);
+    --appereance-info-on-info: var(--theme-foreground-info-default);
+
+    /* Utility*/
+    --appereance-utility-default: var(--color-0);
+    --appereance-utility-hover: var(--theme-background-utility-container-hover);
+    --appereance-utility-active: var(--theme-background-utility-active);
+    --appereance-utility-on-utility: var(--theme-foreground-utility-default);
 }
