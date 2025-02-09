@@ -521,7 +521,7 @@
     --appereance-utility-active: var(--theme-background-utility-active);
     --appereance-utility-on-utility: var(--theme-foreground-utility-on-utility);
 
-        /* Tokens */
+    /* Tokens */
     /* Surface */
     --surface-base: var(--theme-background-base);
     --surface-xL: var(--theme-background-xL);
@@ -746,4 +746,18 @@
     --appereance-utility-hover: var(--theme-background-utility-container-hover);
     --appereance-utility-active: var(--theme-background-utility-active);
     --appereance-utility-on-utility: var(--theme-foreground-utility-default);
+}
+
+.button-accent {
+    background-color: var(--surface-accent-default);
+    color: var(--foreground-accent-on-accent);
+    transition: all .3s ease-in-out;
+}
+
+.button-accent:hover {
+    background-color: var(--surface-accent-hover);
+}
+
+.button-accent:active {
+    background-color: var(--surface-accent-active);
 }
