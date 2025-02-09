@@ -1,4 +1,4 @@
-:root {
+* {
     /* Brand */
     --color-0: transparent;
 
@@ -698,7 +698,7 @@
     --appereance-utility-on-utility: var(--theme-foreground-utility-default);
 }
 
-:root[data-theme="ghost"] {
+[data-theme="ghost"] {
     /* System */
     --appereance-system-default: var(--color-0);
     --appereance-system-hover: var(--theme-background-system-container-hover);
