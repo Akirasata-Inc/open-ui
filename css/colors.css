@@ -648,7 +648,7 @@
     --foreground-utility-active: var(--theme-foreground-utility-active);
 }
 
-[data-theme="secondary"] {
+:root[data-theme="secondary"] {
     /* System */
     --appereance-system-default: var(--theme-background-system-container-default);
     --appereance-system-hover: var(--theme-background-system-container-hover);
@@ -698,7 +698,7 @@
     --appereance-utility-on-utility: var(--theme-foreground-utility-default);
 }
 
-[data-theme="ghost"] {
+:root[data-theme="ghost"] {
     /* System */
     --appereance-system-default: var(--color-0);
     --appereance-system-hover: var(--theme-background-system-container-hover);
