@@ -749,7 +749,7 @@
 }
 
 .button-accent {
-    background-color: var(--surface-accent-default);
+    background-color: var(--surface-accent-container-default);
     color: var(--foreground-accent-on-accent);
     transition: all .15s ease-in-out;
 }
