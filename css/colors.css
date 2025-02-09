@@ -1,7 +1,8 @@
+/* Brand */
 :root {
 
     --color-0: transparent;
-    
+
     /* Grey */
     --color-grey-50-4A: rgba(#F5F8FF, .04);
     --color-grey-50-8A: rgba(#F5F8FF, .08);
@@ -160,4 +161,596 @@
     --color-purple-850: #3F0A78;
     --color-purple-900: #2A0750;
     --color-purple-950: #150328;
+
+    /* Semantic */
+
+    /* System */
+    --semantic-system-50-4A: var(--color-grey-50-4A);
+    --semantic-system-50-8A: var(--color-grey-50-8A);
+    --semantic-system-50-16A: var(--color-grey-50-16A);
+    --semantic-system-50-24A: var(--color-grey-50-24A);
+    --semantic-system-50-32A: var(--color-grey-50-32A);
+    --semantic-system-50-100A: var(--color-grey-50-100A);
+    --semantic-system-100: var(--color-grey-100);
+    --semantic-system-150: var(--color-grey-150);
+    --semantic-system-200: var(--color-grey-200);
+    --semantic-system-250: var(--color-grey-250);
+    --semantic-system-300: var(--color-grey-300);
+    --semantic-system-400: var(--color-grey-400);
+    --semantic-system-500: var(--color-grey-500);
+    --semantic-system-600: var(--color-grey-600);
+    --semantic-system-700: var(--color-grey-700);
+    --semantic-system-750: var(--color-grey-750);
+    --semantic-system-800: var(--color-grey-800);
+    --semantic-system-850: var(--color-grey-850);
+    --semantic-system-900: var(--color-grey-900);
+    --semantic-system-950-4A: var(--color-grey-950-4A);
+    --semantic-system-950-8A: var(--color-grey-950-8A);
+    --semantic-system-950-16A: var(--color-grey-950-16A);
+    --semantic-system-950-24A: var(--color-grey-950-24A);
+    --semantic-system-950-32A: var(--color-grey-950-32A);
+    --semantic-system-950-100A: var(--color-grey-950-100A);
+
+    /* Accent */
+    --semantic-accent-50: var(--color-orange-50);
+    --semantic-accent-100: var(--color-orange-100);
+    --semantic-accent-150: var(--color-orange-150);
+    --semantic-accent-200: var(--color-orange-200);
+    --semantic-accent-250: var(--color-orange-250);
+    --semantic-accent-300: var(--color-orange-300);
+    --semantic-accent-400: var(--color-orange-400);
+    --semantic-accent-500-4A: var(--color-orange-500-4A);
+    --semantic-accent-500-8A: var(--color-orange-500-8A);
+    --semantic-accent-500-16A: var(--color-orange-500-16A);
+    --semantic-accent-500-24A: var(--color-orange-500-24A);
+    --semantic-accent-500-32A: var(--color-orange-500-32A);
+    --semantic-accent-500-100A: var(--color-orange-500-100A);
+    --semantic-accent-600: var(--color-orange-600);
+    --semantic-accent-700: var(--color-orange-700);
+    --semantic-accent-750: var(--color-orange-750);
+    --semantic-accent-800: var(--color-orange-800);
+    --semantic-accent-850: var(--color-orange-850);
+    --semantic-accent-900: var(--color-orange-900);
+    --semantic-accent-950: var(--color-orange-950);
+
+    /* Positive */
+    --semantic-positive-50: var(--color-green-50);
+    --semantic-positive-100: var(--color-green-100);
+    --semantic-positive-150: var(--color-green-150);
+    --semantic-positive-200: var(--color-green-200);
+    --semantic-positive-250: var(--color-green-250);
+    --semantic-positive-300: var(--color-green-300);
+    --semantic-positive-400: var(--color-green-400);
+    --semantic-positive-500-4A: var(--color-green-500-4A);
+    --semantic-positive-500-8A: var(--color-green-500-8A);
+    --semantic-positive-500-16A: var(--color-green-500-16A);
+    --semantic-positive-500-24A: var(--color-green-500-24A);
+    --semantic-positive-500-32A: var(--color-green-500-32A);
+    --semantic-positive-500-100A: var(--color-green-500-100A);
+    --semantic-positive-600: var(--color-green-600);
+    --semantic-positive-700: var(--color-green-700);
+    --semantic-positive-750: var(--color-green-750);
+    --semantic-positive-800: var(--color-green-800);
+    --semantic-positive-850: var(--color-green-850);
+    --semantic-positive-900: var(--color-green-900);
+    --semantic-positive-950: var(--color-green-950);
+
+    /* Negative */
+    --semantic-negative-50: var(--color-red-50);
+    --semantic-negative-100: var(--color-red-100);
+    --semantic-negative-150: var(--color-red-150);
+    --semantic-negative-200: var(--color-red-200);
+    --semantic-negative-250: var(--color-red-250);
+    --semantic-negative-300: var(--color-red-300);
+    --semantic-negative-400: var(--color-red-400);
+    --semantic-negative-500-4A: var(--color-red-500-4A);
+    --semantic-negative-500-8A: var(--color-red-500-8A);
+    --semantic-negative-500-16A: var(--color-red-500-16A);
+    --semantic-negative-500-24A: var(--color-red-500-24A);
+    --semantic-negative-500-32A: var(--color-red-500-32A);
+    --semantic-negative-500-100A: var(--color-red-500-100A);
+    --semantic-negative-600: var(--color-red-600);
+    --semantic-negative-700: var(--color-red-700);
+    --semantic-negative-750: var(--color-red-750);
+    --semantic-negative-800: var(--color-red-800);
+    --semantic-negative-850: var(--color-red-850);
+    --semantic-negative-900: var(--color-red-900);
+    --semantic-negative-950: var(--color-red-950);
+
+    /* Warning */
+    --semantic-warning-50: var(--color-yellow-50);
+    --semantic-warning-100: var(--color-yellow-100);
+    --semantic-warning-150: var(--color-yellow-150);
+    --semantic-warning-200: var(--color-yellow-200);
+    --semantic-warning-250: var(--color-yellow-250);
+    --semantic-warning-300: var(--color-yellow-300);
+    --semantic-warning-400: var(--color-yellow-400);
+    --semantic-warning-500-4A: var(--color-yellow-500-4A);
+    --semantic-warning-500-8A: var(--color-yellow-500-8A);
+    --semantic-warning-500-16A: var(--color-yellow-500-16A);
+    --semantic-warning-500-24A: var(--color-yellow-500-24A);
+    --semantic-warning-500-32A: var(--color-yellow-500-32A);
+    --semantic-warning-500-100A: var(--color-yellow-500-100A);
+    --semantic-warning-600: var(--color-yellow-600);
+    --semantic-warning-700: var(--color-yellow-700);
+    --semantic-warning-750: var(--color-yellow-750);
+    --semantic-warning-800: var(--color-yellow-800);
+    --semantic-warning-850: var(--color-yellow-850);
+    --semantic-warning-900: var(--color-yellow-900);
+    --semantic-warning-950: var(--color-yellow-950);
+
+    /* Info */
+    --semantic-info-50: var(--color-blue-50);
+    --semantic-info-100: var(--color-blue-100);
+    --semantic-info-150: var(--color-blue-150);
+    --semantic-info-200: var(--color-blue-200);
+    --semantic-info-250: var(--color-blue-250);
+    --semantic-info-300: var(--color-blue-300);
+    --semantic-info-400: var(--color-blue-400);
+    --semantic-info-500-4A: var(--color-blue-500-4A);
+    --semantic-info-500-8A: var(--color-blue-500-8A);
+    --semantic-info-500-16A: var(--color-blue-500-16A);
+    --semantic-info-500-24A: var(--color-blue-500-24A);
+    --semantic-info-500-32A: var(--color-blue-500-32A);
+    --semantic-info-500-100A: var(--color-blue-500-100A);
+    --semantic-info-600: var(--color-blue-600);
+    --semantic-info-700: var(--color-blue-700);
+    --semantic-info-750: var(--color-blue-750);
+    --semantic-info-800: var(--color-blue-800);
+    --semantic-info-850: var(--color-blue-850);
+    --semantic-info-900: var(--color-blue-900);
+    --semantic-info-950: var(--color-blue-950);
+
+    /* Utility */
+    --semantic-utility-50: var(--color-purple-50);
+    --semantic-utility-100: var(--color-purple-100);
+    --semantic-utility-150: var(--color-purple-150);
+    --semantic-utility-200: var(--color-purple-200);
+    --semantic-utility-250: var(--color-purple-250);
+    --semantic-utility-300: var(--color-purple-300);
+    --semantic-utility-400: var(--color-purple-400);
+    --semantic-utility-500-4A: var(--color-purple-500-4A);
+    --semantic-utility-500-8A: var(--color-purple-500-8A);
+    --semantic-utility-500-16A: var(--color-purple-500-16A);
+    --semantic-utility-500-24A: var(--color-purple-500-24A);
+    --semantic-utility-500-32A: var(--color-purple-500-32A);
+    --semantic-utility-500-100A: var(--color-purple-500-100A);
+    --semantic-utility-600: var(--color-purple-600);
+    --semantic-utility-700: var(--color-purple-700);
+    --semantic-utility-750: var(--color-purple-750);
+    --semantic-utility-800: var(--color-purple-800);
+    --semantic-utility-850: var(--color-purple-850);
+    --semantic-utility-900: var(--color-purple-900);
+    --semantic-utility-950: var(--color-purple-950);
+}
+
+/* Theme */
+:root {
+    /* Backround */
+    --theme-background-base: var(--semantic--system-950-100A);
+    --theme-background-xL: var(--semantic-system-900);
+    --theme-background-L: var(--semantic-system-850);
+    --theme-background-M: var(--semantic-system-800);
+    --theme-background-S: var(--semantic-system-750);
+    --theme-background-elevated: var(--semantic-system-700);
+    --theme-background-contrast: var(--semantic-system-100);
+    --theme-background-static-dark: var(--semantic-system-950-100A);
+    --theme-background-static-light: var(--semantic-system-50-100A);
+    --theme-background-disabled: var(--semantic-system-50-8A);
+
+    /* System */
+    --theme-background-system-default: var(--semantic-system-50-100A);
+    --theme-background-system-hover: var(--semantic-system-200);
+    --theme-background-system-active: var(--semantic-system-400);
+    --theme-background-system-container-default: var(--semantic-system-50-16A);
+    --theme-background-system-container-soft: var(--semantic-system-50-8A);
+    --theme-background-system-container-muted: var(--semantic-system-50-4A);
+    --theme-background-system-container-hover: var(--semantic-system-50-24A);
+    --theme-background-system-container-active: var(--semantic-system-50-32A);
+
+    /* Neutral */
+    --theme-background-neutral-default: var(--semantic-system-50-100A);
+    --theme-background-neutral-hover: var(--semantic-system-200);
+    --theme-background-neutral-active: var(--semantic-system-400);
+    --theme-background-neutral-container-default: var(--semantic-system-50-16A);
+    --theme-background-neutral-container-soft: var(--semantic-system-50-8A);
+    --theme-background-neutral-container-muted: var(--semantic-system-50-4A);
+    --theme-background-neutral-container-hover: var(--semantic-system-50-24A);
+    --theme-background-neutral-container-active: var(--semantic-system-50-32A);
+
+    /* Accent */
+    --theme-background-accent-default: var(--semantic-accent-500-100A);
+    --theme-background-accent-hover: var(--semantic-accent-300);
+    --theme-background-accent-active: var(--semantic-accent-200);
+    --theme-background-accent-container-default: var(--semantic-accent-50-16A);
+    --theme-background-accent-container-soft: var(--semantic-accent-50-8A);
+    --theme-background-accent-container-muted: var(--semantic-accent-50-4A);
+    --theme-background-accent-container-hover: var(--semantic-accent-50-24A);
+    --theme-background-accent-container-active: var(--semantic-accent-50-32A);
+
+    /* Positive */
+    --theme-background-positive-default: var(--semantic-positive-500-100A);
+    --theme-background-positive-hover: var(--semantic-positive-300);
+    --theme-background-positive-active: var(--semantic-positive-200);
+    --theme-background-positive-container-default: var(--semantic-positive-50-16A);
+    --theme-background-positive-container-soft: var(--semantic-positive-50-8A);
+    --theme-background-positive-container-muted: var(--semantic-positive-50-4A);
+    --theme-background-positive-container-hover: var(--semantic-positive-50-24A);
+    --theme-background-positive-container-active: var(--semantic-positive-50-32A);
+
+    /* Negative */
+    --theme-background-negative-default: var(--semantic-negative-500-100A);
+    --theme-background-negative-hover: var(--semantic-negative-300);
+    --theme-background-negative-active: var(--semantic-negative-200);
+    --theme-background-negative-container-default: var(--semantic-negative-50-16A);
+    --theme-background-negative-container-soft: var(--semantic-negative-50-8A);
+    --theme-background-negative-container-muted: var(--semantic-negative-50-4A);
+    --theme-background-negative-container-hover: var(--semantic-negative-50-24A);
+    --theme-background-negative-container-active: var(--semantic-negative-50-32A);
+
+    /* Warning */
+    --theme-background-warning-default: var(--semantic-warning-500-100A);
+    --theme-background-warning-hover: var(--semantic-warning-300);
+    --theme-background-warning-active: var(--semantic-warning-200);
+    --theme-background-warning-container-default: var(--semantic-warning-50-16A);
+    --theme-background-warning-container-soft: var(--semantic-warning-50-8A);
+    --theme-background-warning-container-muted: var(--semantic-warning-50-4A);
+    --theme-background-warning-container-hover: var(--semantic-warning-50-24A);
+    --theme-background-warning-container-active: var(--semantic-warning-50-32A);
+
+    /* Info */
+    --theme-background-info-default: var(--semantic-info-500-100A);
+    --theme-background-info-hover: var(--semantic-info-300);
+    --theme-background-info-active: var(--semantic-info-200);
+    --theme-background-info-container-default: var(--semantic-info-50-16A);
+    --theme-background-info-container-soft: var(--semantic-info-50-8A);
+    --theme-background-info-container-muted: var(--semantic-info-50-4A);
+    --theme-background-info-container-hover: var(--semantic-info-50-24A);
+    --theme-background-info-container-active: var(--semantic-info-50-32A);
+
+    /* Utility */
+    --theme-background-utility-default: var(--semantic-utility-500-100A);
+    --theme-background-utility-hover: var(--semantic-utility-300);
+    --theme-background-utility-active: var(--semantic-utility-200);
+    --theme-background-utility-container-default: var(--semantic-utility-50-16A);
+    --theme-background-utility-container-soft: var(--semantic-utility-50-8A);
+    --theme-background-utility-container-muted: var(--semantic-utility-50-4A);
+    --theme-background-utility-container-hover: var(--semantic-utility-50-24A);
+    --theme-background-utility-container-active: var(--semantic-utility-50-32A);
+
+    /* Foreground */
+    --theme-foreground-primary: var(--semantic-system-50-100A);
+    --theme-foreground-soft: var(--semantic-system-200);
+    --theme-foreground-muted: var(--semantic-system-400);
+    --theme-foreground-contrast: var(--semantic-system-950-100A);
+    --theme-foreground-static-dark: var(--semantic-system-50-100A);
+    --theme-foreground-static-light: var(--semantic-system-950-100A);
+    --theme-foreground-disabled: var(--semantic-system-50-16A);
+
+    /* System */
+    --theme-foreground-system-on-background: var(--semantic-system-950-100A);
+    --theme-foreground-system-default: var(--theme-background-system-default);
+    --theme-foreground-system-hover: var(--theme-background-system-hover);
+    --theme-foreground-system-active: var(--theme-background-system-active);
+
+    /* Neutral */
+    --theme-foreground-neutral-on-background: var(--semantic-system-50-100A);
+    --theme-foreground-neutral-default: var(--theme-background-neutral-default);
+    --theme-foreground-neutral-hover: var(--theme-background-neutral-hover);
+    --theme-foreground-neutral-active: var(--theme-background-neutral-active);
+
+    /* Accent */
+    --theme-foreground-accent-on-background: var(--semantic-accent-950);
+    --theme-foreground-accent-default: var(--theme-background-accent-default);
+    --theme-foreground-accent-hover: var(--theme-background-accent-hover);
+    --theme-foreground-accent-active: var(--theme-background-accent-active);
+
+    /* Positive */
+    --theme-foreground-positive-on-background: var(--semantic-postivie-950);
+    --theme-foreground-positive-default: var(--theme-background-positive-default);
+    --theme-foreground-positive-hover: var(--theme-background-positive-hover);
+    --theme-foreground-positive-active: var(--theme-background-positive-active);
+
+    /* Negative */
+    --theme-foreground-negative-on-background: var(--semantic-negative-950);
+    --theme-foreground-negative-default: var(--theme-background-negative-default);
+    --theme-foreground-negative-hover: var(--theme-background-negative-hover);
+    --theme-foreground-negative-active: var(--theme-background-negative-active);
+
+    /* Warning */
+    --theme-foreground-warning-on-background: var(--semantic-warning-950);
+    --theme-foreground-warning-default: var(--theme-background-warning-default);
+    --theme-foreground-warning-hover: var(--theme-background-warning-hover);
+    --theme-foreground-warning-active: var(--theme-background-warning-active);
+
+    /* Info */
+    --theme-foreground-info-on-background: var(--semantic-info-950);
+    --theme-foreground-info-default: var(--theme-background-info-default);
+    --theme-foreground-info-hover: var(--theme-background-info-hover);
+    --theme-foreground-info-active: var(--theme-background-info-active);
+
+    /* Utility */
+    --theme-foreground-utility-on-background: var(--semantic-utility-950);
+    --theme-foreground-utility-default: var(--theme-background-utility-default);
+    --theme-foreground-utility-hover: var(--theme-background-utility-hover);
+    --theme-foreground-utility-active: var(--theme-background-utility-active);
+}
+
+/* Appereance */
+:root [data-appereance="primary"] {
+    /* System */
+    --appereance-system-default: var(--theme-background-system-default);
+    --appereance-system-hover: var(--theme-background-system-hover);
+    --appereance-system-active: var(--theme-background-system-active);
+    --appereance-system-on-system: var(--theme-foreground-system-on-background);
+
+    /* Neutral */
+    --appereance-neutral-default: var(--theme-background-neutral-default);
+    --appereance-neutral-hover: var(--theme-background-neutral-hover);
+    --appereance-neutral-active: var(--theme-background-neutral-active);
+    --appereance-neutral-on-neutral: var(--theme-foreground-neutral-on-background);
+
+    /* Accent */
+    --appereance-accent-default: var(--theme-background-accent-default);
+    --appereance-accent-hover: var(--theme-background-accent-hover);
+    --appereance-accent-active: var(--theme-background-accent-active);
+    --appereance-accent-on-accent: var(--theme-foreground-accent-on-background);
+
+    /* Positive */
+    --appereance-positive-default: var(--theme-background-positive-default);
+    --appereance-positive-hover: var(--theme-background-positive-hover);
+    --appereance-positive-active: var(--theme-background-positive-active);
+    --appereance-positive-on-positive: var(--theme-foreground-positive-on-background);
+
+    /* Negative */
+    --appereance-negative-default: var(--theme-background-negative-default);
+    --appereance-negative-hover: var(--theme-background-negative-hover);
+    --appereance-negative-active: var(--theme-background-negative-active);
+    --appereance-negative-on-negative: var(--theme-foreground-negative-on-background);
+
+    /* Warning */
+    --appereance-warning-default: var(--theme-background-warning-default);
+    --appereance-warning-hover: var(--theme-background-warning-hover);
+    --appereance-warning-active: var(--theme-background-warning-active);
+    --appereance-warning-on-warning: var(--theme-foreground-warning-on-background);
+
+    /* Info */
+    --appereance-info-default: var(--theme-background-info-default);
+    --appereance-info-hover: var(--theme-background-info-hover);
+    --appereance-info-active: var(--theme-background-info-active);
+    --appereance-info-on-info: var(--theme-foreground-info-on-background);
+
+    /* Utility */
+    --appereance-utility-default: var(--theme-background-utility-default);
+    --appereance-utility-hover: var(--theme-background-utility-hover);
+    --appereance-utility-active: var(--theme-background-utility-active);
+    --appereance-utility-on-utility: var(--theme-foreground-utility-on-utility);
+}
+
+:root [data-appereance="secondary"] {
+    /* System */
+    --appereance-system-default: var(--theme-background-system-container-default);
+    --appereance-system-hover: var(--theme-background-system-container-hover);
+    --appereance-system-active: var(--theme-background-system-container-active);
+    --appereance-system-on-system: var(--theme-foreground-system-default);
+
+    /* Neutral */
+    --appereance-neutral-default: var(--theme-background-neutral-container-default);
+    --appereance-neutral-hover: var(--theme-background-neutral-container-hover);
+    --appereance-neutral-active: var(--theme-background-neutral-container-active);
+    --appereance-neutral-on-neutral: var(--theme-foreground-neutral-default);
+
+    /* Accent */
+    --appereance-accent-default: var(--theme-background-accent-container-default);
+    --appereance-accent-hover: var(--theme-background-accent-container-hover);
+    --appereance-accent-active: var(--theme-background-accent-container-active);
+    --appereance-accent-on-accent: var(--theme-foreground-accent-default);
+
+    /* Positive */
+    --appereance-positive-default: var(--theme-background-positive-container-default);
+    --appereance-positive-hover: var(--theme-background-positive-container-hover);
+    --appereance-positive-active: var(--theme-background-positive-conintainer-active);
+    --appereance-positive-on-positive: var(--theme-foreground-positive-default);
+
+    /* Negative */
+    --appereance-negative-default: var(--theme-backround-negative-container-default);
+    --appereance-negative-hover: var(--theme-background-negative-container-hover);
+    --appereance-negative-active: var(--theme-background-negative-container-active);
+    --appereance-negative-on-negative: var(--theme-foreground-negative-default);
+
+    /* Warning */
+    --appereance-warning-default: var(--theme-background-warning-container-default);
+    --appereance-warning-hover: var(--theme-background-warning-container-hover);
+    --appereance-warning-active: var(--theme-background-warning-container-active);
+    --appereance-warning-on-warning: var(--theme-foreground-warning-default);
+
+    /* Info */
+    --appereance-info-default: var(--theme-background-info-container-default);
+    --appereance-info-hover: var(--theme-background-info-container-hover);
+    --appereance-info-active: var(--theme-background-info-container-active);
+    --appereance-info-on-info: var(--theme-foreground-info-default);
+
+    /* Utility */
+    --appereance-utility-default: var(--theme-background-utility-container-default);
+    --appereance-utility-hover: var(--theme-background-utility-container-hover);
+    --appereance-utility-active: var(--theme-background-utility-container-active);
+    --appereance-utility-on-utility: var(--theme-foreground-utility-default);
+}
+
+:root [data-appereance="ghost"] {
+    /* System */
+    --appereance-system-default: var(--color-0);
+    --appereance-system-hover: var(--theme-background-system-container-hover);
+    --appereance-system-active: var(--theme-background-system-active);
+    --appereance-system-on-system: var(--theme-foreground-system-default);
+
+    /* Neutral */
+    --appereance-neutral-default: var(--color-0);
+    --appereance-neutral-hover: var(--theme-background-neutral-container-hover);
+    --appereance-neutral-active: var(--theme-background-neutral-active);
+    --appereance-neutral-on-neutral: var(--theme-foreground-neutral-default);
+
+    /* Accent */
+    --appereance-accent-default: var(--color-0);
+    --appereance-accent-hover: var(--theme-background-accent-container-hover);
+    --appereance-accent-active: var(--theme-background-accent-active);
+    --appereance-accent-on-accent: var(--theme-foreground-accent-default);
+
+    /* Positive */
+    --appereance-positive-default: var(--color-0);
+    --appereance-positive-hover: var(--theme-background-positive-container-hover);
+    --appereance-positive-active: var(--theme-background-positive-active);
+    --appereance-positive-on-positive: var(--theme-foreground-positive-default);
+
+    /* Negative */
+    --appereance-negative-default: var(--color-0);
+    --appereance-negative-hover: var(--theme-background-negative-container-hover);
+    --appereance-negative-active: var(--theme-background-negative-active);
+    --appereance-negative-on-negative: var(--theme-foreground-negative-default);
+
+    /* Warning */
+    --appereance-warning-default: var(--color-0);
+    --appereance-warning-hover: var(--theme-background-warning-container-hover);
+    --appereance-warning-active: var(--theme-background-warning-active);
+    --appereance-warning-on-warning: var(--theme-foreground-warning-default);
+
+    /* Info */
+    --appereance-info-default: var(--color-0);
+    --appereance-info-hover: var(--theme-background-info-container-hover);
+    --appereance-info-active: var(--theme-background-info-active);
+    --appereance-info-on-info: var(--theme-foreground-info-default);
+
+    /* Utility*/
+    --appereance-utility-default: var(--color-0);
+    --appereance-utility-hover: var(--theme-background-utility-container-hover);
+    --appereance-utility-active: var(--theme-background-utility-active);
+    --appereance-utility-on-utility: var(--theme-foreground-utility-default);
+}
+
+/* Tokens */
+:root {
+    /* Surface */
+    --surface-base: var(--theme-background-base);
+    --surface-xL: var(--theme-background-xL);
+    --surface-L: var(--theme-background-L);
+    --surface-M: var(--theme-background-M);
+    --surface-S: var(--theme-background-S);
+    --surface-elevated: var(--theme-background-elevated);
+    --surface-static-dark: var(--theme-background-static-dark);
+    --surface-static-light: var(--theme-background-static-light);
+    --surface-contrast: var(--theme-background-contrast);
+    --surface-disabled: var(--theme-background-disabled);
+
+    /* System */
+    --surface-system-default: var(--appereance-system-default);
+    --surface-system-hover: var(--appereance-system-hover);
+    --surface-system-active: var(--appereance-system-active);
+    --surface-system-container-default: var(--theme-background-system-container-default);
+    --surface-system-container-soft: var(--theme-background-system-container-soft);
+    --surface-system-container-muted: var(--theme-background-system-container-muted);
+
+    /* Neutral */
+    --surface-neutral-default: var(--appereance-neutral-default);
+    --surface-neutral-hover: var(--appereance-neutral-hover);
+    --surface-neutral-active: var(--apperenance-neutral-active);
+    --surface-neutral-container-default: var(--theme-background-neutral-container-default);
+    --surface-neutral-container-soft: var(--theme-background-neutral-container-soft);
+    --surface-neutral-container-muted: var(--theme-background-muted);
+
+    /* Accent */
+    --surface-accent-default: var(--appereance-accent-default);
+    --surface-accent-hover: var(--appereance-accent-hover);
+    --surface-accent-active: var(--appereance-accent-active);
+    --surface-accent-container-default: var(--theme-background-accent-container-default);
+    --surface-accent-container-soft: var(--theme-background-acccent-container-soft);
+    --surface-accent-container-muted: var(--theme-background-accent-container-muted);
+
+    /* Positive */
+    --surface-positive-default: var(--appereance-positive-default);
+    --surface-positive-hover: var(--appereance-positive-hover);
+    --surface-positive-active: var(--appereance-positive-active);
+    --surface-positive-container-default: var(--theme-background-positive-container-default);
+    --surface-positive-container-soft: var(--theme-background-positive-container-soft);
+    --surface-positive-container-muted: var(--theme-background-positive-container-muted);
+
+    /* Warning */
+    --surface-warning-default: var(--appereance-warning-default);
+    --surface-warning-hover: var(--appereance-warning-hover);
+    --surface-warning-active: var(--appereance-warning-active);
+    --surface-warning-container-default: var(--theme-background-warning-container-default);
+    --surface-warning-container-soft: var(--theme-background-warning-container-soft);
+    --surface-warning-container-muted: var(--theme-background-warning-container-muted);
+
+    /* Info */
+    --surface-info-default: var(--appereance-info-default);
+    --surface-info-hover: var(--appereance-info-hover);
+    --surface-info-active: var(--appereance-info-active);
+    --surface-info-container-default: var(--theme-background-info-container-default);
+    --surface-info-container-soft: var(--theme-background-info-container-soft);
+    --surface-info-container-mutedL: var(--theme-background-info-container-muted);
+
+    /* Utility */
+    --surface-utility-default: var(--appereance-utility-default);
+    --surface-utility-hover: var(--appereance-utility-hover);
+    --surface-utility-active: var(--appereance-utility-active);
+    --surface-utility-container-default: var(--theme-background-utility-container-default);
+    --surface-utility-container-soft: var(--theme-background-utility-container-soft);
+    --surface-utility-container-muted: var(--theme-background-utility-container-);
+
+    /* Foreground */
+    --foreground-primary: var(--theme-foreground-primary);
+    --foreground-soft: var(--theme-foreground-soft);
+    --foreground-muted: var(--theme-foreground-muted);
+    --foreground-contrast: var(--theme-foreground-contrast);
+    --foreground-static-dark: var(--theme-foreground-static-dark);
+    --foreground-static-light: var(--theme-foreground-static-light);
+    --foreground-disabled: var(--theme-foreground-disabled);
+
+    /* System */
+    --foreground-system-on-system: var(--appereance-system-on-system);
+    --foreground-system-default: var(--theme-foreground-system-default);
+    --foreground-system-hover: var(--theme-foreground-system-hover);
+    --foreground-system-active: var(--theme-foreground-system-active);
+
+    /* Neutral */
+    --foreground-neutral-on-neutral: var(--appereance-neutral-on-neutral);
+    --foreground-neutral-default: var(--theme-foreground-neutral-default);
+    --foreground-neutral-hover: var(--theme-foreground-neutral-hover);
+    --foreground-neutral-active: var(--theme-foreground-neutral-active);
+
+    /* Accent */
+    --foreground-accent-on-accent: var(--appereance-accent-on-accent);
+    --foreground-accent-default: var(--theme-foreground-accent-default);
+    --foreground-accent-hover: var(--theme-foreground-accent-hover);
+    --foreground-accent-active: var(--theme-foreground-accent-active);
+
+    /* Positive */
+    --foreground-positive-on-positive: var(--appereance-positive-on-positive);
+    --foreground-positive-default: var(--theme-foreground-positive-default);
+    --foreground-positive-hover: var(--theme-foreground-positive-hover);
+    --foreground-positive-active: var(--theme-foreground-positive-active);
+
+    /* Negative */
+    --foreground-negative-on-negative: var(--appereance-negative-on-negative);
+    --foreground-negative-default: var(--theme-foreground-negative-default);
+    --foreground-negative-hover: var(--theme-foreground-negative-hover);
+    --foreground-negative-active: var(--theme-foreground-negative-active);
+
+    /* Warning */
+    --foreground-warning-on-warning: var(--appereance-warning-on-warning);
+    --foreground-warning-default: var(--theme-foreground-warning-default);
+    --foreground-warning-hover: var(--theme-foreground-warning-hover);
+    --foreground-warning-active: var(--theme-foreground-warning-active);
+
+    /* Info */
+    --foreground-info-on-info: var(--appereance-info-on-info);
+    --foreground-info-default: var(--theme-foreground-info-default);
+    --foreground-info-hover: var(--theme-foreground-info-hover);
+    --foreground-info-active: var(--theme-foreground-info-active);
+
+    /* Utility */
+    --foreground-utility-on-utility: var(--appereance-utility-on-utility);
+    --foreground-utility-default: var(--theme-foreground-utility-default);
+    --foreground-utility-hover: var(--theme-foreground-utility-hover);
+    --foreground-utility-active: var(--theme-foreground-utility-active);
 }
