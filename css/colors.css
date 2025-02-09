@@ -477,7 +477,7 @@
 }
 
 /* Appereance */
-:root [data-appereance="primary"] {
+:root [appereance="primary"] {
     /* System */
     --appereance-system-default: var(--theme-background-system-default);
     --appereance-system-hover: var(--theme-background-system-hover);
@@ -527,7 +527,7 @@
     --appereance-utility-on-utility: var(--theme-foreground-utility-on-utility);
 }
 
-:root [data-appereance="secondary"] {
+:root [appereance="secondary"] {
     /* System */
     --appereance-system-default: var(--theme-background-system-container-default);
     --appereance-system-hover: var(--theme-background-system-container-hover);
@@ -577,7 +577,7 @@
     --appereance-utility-on-utility: var(--theme-foreground-utility-default);
 }
 
-:root [data-appereance="ghost"] {
+:root [appereance="ghost"] {
     /* System */
     --appereance-system-default: var(--color-0);
     --appereance-system-hover: var(--theme-background-system-container-hover);
