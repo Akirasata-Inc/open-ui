@@ -576,7 +576,7 @@
     --appereance-utility-on-utility-hover: var(--theme-foreground-utility-hover);
     --appereance-utility-on-utility-active: var(--theme-foreground-utility-active);
 
-    /* Role */
+    /* Variant */
     --variant-surface-default: var(--appereance-system-default);
     --variant-surface-hover: var(--appereance-system-hover);
     --variant-surface-active: var(--appereance-system-active);
@@ -660,10 +660,10 @@
     --foreground-utility: var(--theme-foreground-utility-default);
     --foreground-disabled: var(--theme-foreground-disabled);
 
-    /* Role */
-    --foreground-variant-default: var(--role-foreground-default);
-    --foreground-variant-hover: var(--role-foreground-hover);
-    --foreground-variant-active: var(--role-foreground-active);
+    /* Variant */
+    --foreground-variant-default: var(--variant-foreground-default);
+    --foreground-variant-hover: var(--variant-foreground-hover);
+    --foreground-variant-active: var(--variant-foreground-active);
 
     /* Animation */
     --animation: all .15s ease-in-out;
