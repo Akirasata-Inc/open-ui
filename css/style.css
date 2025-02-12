@@ -668,6 +668,20 @@
     /* Animation */
     --animation: all .15s ease-in-out;
 
+    /* Style */
+    --br-0: var(--x0);
+    --br-0-5: var(--x0-5);
+    --br-1: var(--x1);
+    --br-1-5: var(--x1-5);
+    --br-2: var(--x2);
+    --br-2-5: var(--x2-5);
+    --br-3: var(--x3);
+    --br-3-5: var(--x3-5);
+    --br-4: var(--x4);
+    --br-5: var(--x5);
+    --br-6: var(--x6);
+    --br-max: var(--xMax);
+
 
 
 }
@@ -833,6 +847,37 @@
     --variant-foreground-default: var(--appereance-utility-on-utility-default);
     --variant-foreground-hover: var(--appereance-utility-on-utility-hover);
     --variant-foreground-active: var(--appereance-utility-on-utility-active);
+}
+
+[data-style="round"] {
+    --br-0:var(--x0);
+    --br-0-5: var(--x0);
+    --br-1: var(--xMax);
+    --br-1-5: var(--xMax);
+    --br-2: var(--xMax);
+    --br-2-5: var(--xMax);
+    --br-3: var(--xMax);
+    --br-3-5: var(--xMax);
+    --br-4: var(--xMax);
+    --br-5: var(--xMax);
+    --br-6: var(--xMax);
+    --br-max: var(--xMax);
+
+}
+
+[data-style="geometric"] {
+    --br-0: var(--x0);
+    --br-0-5: var(--x0-5);
+    --br-1: var(--x1);
+    --br-1-5: var(--x1);
+    --br-2: var(--x1-5);
+    --br-2-5: var(--x1-5);
+    --br-3: var(--x1-5);
+    --br-3-5: var(--x1-5);
+    --br-4: var(--x2);
+    --br-5: var(--x2);
+    --br-6: var(--x2);
+    --br-max: var(--xMax);
 }
 
 .variant {
