@@ -671,18 +671,27 @@
     /* Style */
     --br-0: var(--x0);
     --br-0-5: var(--x0-5);
-    --br-1: var(--x1);
-    --br-1-5: var(--x1-5);
-    --br-2: var(--x2);
-    --br-2-5: var(--x2-5);
-    --br-3: var(--x3);
-    --br-3-5: var(--x3-5);
-    --br-4: var(--x4);
-    --br-5: var(--x5);
-    --br-6: var(--x6);
+    --br-3xS: var(--x1);
+    --br-2xS: var(--x1-5);
+    --br-xS: var(--x2);
+    --br-S: var(--x2-5);
+    --br-sM: var(--x3);
+    --br-M: var(--x3-5);
+    --br-L: var(--x4);
+    --br-xL: var(--x5);
+    --br-2xL: var(--x6);
     --br-max: var(--xMax);
 
-
+    /* Component sizes */
+    --xxxS: var(--x3);
+    --xxS: var(--x4);
+    --xS: var(--x5);
+    --S: var(--x6);
+    --sM: var(--x8);
+    --M: var(--x9);
+    --L: var(--x12);
+    --xL: var(--x14);
+    --xxL: var(--x16);
 
 }
 
@@ -852,15 +861,15 @@
 [data-style="round"] {
     --br-0:var(--x0);
     --br-0-5: var(--x0);
-    --br-1: var(--xMax);
-    --br-1-5: var(--xMax);
-    --br-2: var(--xMax);
-    --br-2-5: var(--xMax);
-    --br-3: var(--xMax);
-    --br-3-5: var(--xMax);
-    --br-4: var(--xMax);
-    --br-5: var(--xMax);
-    --br-6: var(--xMax);
+    --br-3xS: var(--xMax);
+    --br-2xS: var(--xMax);
+    --br-xS: var(--xMax);
+    --br-S: var(--xMax);
+    --br-sM: var(--xMax);
+    --br-M: var(--xMax);
+    --br-L: var(--xMax);
+    --br-xL: var(--xMax);
+    --br-2xL: var(--xMax);
     --br-max: var(--xMax);
 
 }
@@ -868,15 +877,15 @@
 [data-style="geometric"] {
     --br-0: var(--x0);
     --br-0-5: var(--x0-5);
-    --br-1: var(--x1);
-    --br-1-5: var(--x1);
-    --br-2: var(--x1-5);
-    --br-2-5: var(--x1-5);
-    --br-3: var(--x1-5);
-    --br-3-5: var(--x1-5);
-    --br-4: var(--x2);
-    --br-5: var(--x2);
-    --br-6: var(--x2);
+    --br-3xS: var(--x1);
+    --br-2xS: var(--x1);
+    --br-xS: var(--x1-5);
+    --br-S: var(--x1-5);
+    --br-sM: var(--x1-5);
+    --br-M: var(--x1-5);
+    --br-L: var(--x2);
+    --br-xL: var(--x2);
+    --br-2xL: var(--x2);
     --br-max: var(--xMax);
 }
 
@@ -893,4 +902,49 @@
 .variant:active {
     background-color: var(--surface-variant-active);
     color: var(--foreground-variant-active);
+}
+
+.size-3xS {
+    height: var(--xxxS);
+    border-radius: var(--br-3xS);
+}
+
+.size-2xS {
+    height: var(--xxS);
+    border-radius: var(--br-2xS);
+}
+
+.size-xS {
+    height: var(--xS);
+    border-radius: var(--br-xS);
+}
+
+.size-S {
+    height: var(--S);
+    border-radius: var(--br-S);
+}
+
+.size-sM {
+    height: var(--sM);
+    border-radius: var(--br-sM);
+}
+
+.size-M {
+    height: var(--M);
+    border-radius: var(--br-M);
+}
+
+.size-L {
+    height: var(--L);
+    border-radius: var(--br-L);
+}
+
+.size-xL {
+    height: var(--xL);
+    border-radius: var(--br-xL);
+}
+
+.size-2xL {
+    height: var(--xxL);
+    border-radius: var(--br-2xL);
 }
