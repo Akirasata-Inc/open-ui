@@ -32,6 +32,7 @@
     --x56: calc(var(--x1) * 56);
     --x60: calc(var(--x1) * 60);
     --x64: calc(var(--x1) * 64);
+    --xMax: 9999;
 
     /* Brand */
 
@@ -576,12 +577,12 @@
     --appereance-utility-on-utility-active: var(--theme-foreground-utility-active);
 
     /* Role */
-    --role-surface-default: var(--appereance-system-default);
-    --role-surface-hover: var(--appereance-system-hover);
-    --role--surface-active: var(--appereance-system-active);
-    --role-foreground-default: var(--appereance-system-on-system-default);
-    --role-foreground-hover: var(--appereance-system-on-system-hover);
-    --role-foreground-active: var(--appereance-system-on-system-active);
+    --variant-surface-default: var(--appereance-system-default);
+    --variant-surface-hover: var(--appereance-system-hover);
+    --variant-surface-active: var(--appereance-system-active);
+    --variant-foreground-default: var(--appereance-system-on-system-default);
+    --variant-foreground-hover: var(--appereance-system-on-system-hover);
+    --variant-foreground-active: var(--appereance-system-on-system-active);
 
 
     /* Tokens */
@@ -597,10 +598,10 @@
     --surface-contrast: var(--theme-background-contrast);
     --surface-disabled: var(--theme-background-disabled);
 
-    /* Role */
-    --surface-role-default: var(--role-surface-default);
-    --surface-role-hover: var(--role-surface-hover);
-    --surface-role-active: var(--role--surface-active);
+    /* Variant */
+    --surface-variant-default: var(--variant-surface-default);
+    --surface-variant-hover: var(--variant-surface-hover);
+    --surface-variant-active: var(--variant--surface-active);
 
     /* System */
     --surface-system-default: var(--appereance-system-default);
@@ -660,9 +661,9 @@
     --foreground-disabled: var(--theme-foreground-disabled);
 
     /* Role */
-    --foreground-role-default: var(--role-foreground-default);
-    --foreground-role-hover: var(--role-foreground-hover);
-    --foreground-role-active: var(--role-foreground-active);
+    --foreground-variant-default: var(--role-foreground-default);
+    --foreground-variant-hover: var(--role-foreground-hover);
+    --foreground-variant-active: var(--role-foreground-active);
 
     /* Animation */
     --animation: all .15s ease-in-out;
@@ -771,80 +772,80 @@
     --appereance-utility-on-utility: var(--theme-foreground-utility-default);
 }
 
-[data-role="neutral"] {
-    --role-surface-default: var(--appereance-neutral-default);
-    --role-surface-hover: var(--appereance-neutral-hover);
-    --role--surface-active: var(--appereance-neutral-active);
-    --role-foreground-default: var(--appereance-neutral-on-neutral-default);
-    --role-foreground-hover: var(--appereance-neutral-on-neutral-hover);
-    --role-foreground-active: var(--appereance-neutral-on-neutral-active);
+[data-variant="neutral"] {
+    --variant-surface-default: var(--appereance-neutral-default);
+    --variant-surface-hover: var(--appereance-neutral-hover);
+    --variant--surface-active: var(--appereance-neutral-active);
+    --variant-foreground-default: var(--appereance-neutral-on-neutral-default);
+    --variant-foreground-hover: var(--appereance-neutral-on-neutral-hover);
+    --variant-foreground-active: var(--appereance-neutral-on-neutral-active);
 }
 
-[data-role="accent"] {
-    --role-surface-default: var(--appereance-accent-default);
-    --role-surface-hover: var(--appereance-accent-hover);
-    --role--surface-active: var(--appereance-accent-active);
-    --role-foreground-default: var(--appereance-accent-on-accent-default);
-    --role-foreground-hover: var(--appereance-accent-on-accent-hover);
-    --role-foreground-active: var(--appereance-accent-on-accent-active);
+[data-variant="accent"] {
+    --variant-surface-default: var(--appereance-accent-default);
+    --variant-surface-hover: var(--appereance-accent-hover);
+    --variant--surface-active: var(--appereance-accent-active);
+    --variant-foreground-default: var(--appereance-accent-on-accent-default);
+    --variant-foreground-hover: var(--appereance-accent-on-accent-hover);
+    --variant-foreground-active: var(--appereance-accent-on-accent-active);
 }
 
-[data-role="positive"] {
-    --role-surface-default: var(--appereance-positive-default);
-    --role-surface-hover: var(--appereance-positive-hover);
-    --role--surface-active: var(--appereance-positive-active);
-    --role-foreground-default: var(--appereance-positive-on-positive-default);
-    --role-foreground-hover: var(--appereance-positive-on-positive-hover);
-    --role-foreground-active: var(--appereance-positive-on-positive-active);
+[data-variant="positive"] {
+    --variant-surface-default: var(--appereance-positive-default);
+    --variant-surface-hover: var(--appereance-positive-hover);
+    --variant--surface-active: var(--appereance-positive-active);
+    --variant-foreground-default: var(--appereance-positive-on-positive-default);
+    --variant-foreground-hover: var(--appereance-positive-on-positive-hover);
+    --variant-foreground-active: var(--appereance-positive-on-positive-active);
 }
 
-[data-role="negative"] {
-    --role-surface-default: var(--appereance-negative-default);
-    --role-surface-hover: var(--appereance-negative-hover);
-    --role--surface-active: var(--appereance-negative-active);
-    --role-foreground-default: var(--appereance-negative-on-negative-default);
-    --role-foreground-hover: var(--appereance-negative-on-negative-hover);
-    --role-foreground-active: var(--appereance-negative-on-negative-active);
+[data-variant="negative"] {
+    --variant-surface-default: var(--appereance-negative-default);
+    --variant-surface-hover: var(--appereance-negative-hover);
+    --variant--surface-active: var(--appereance-negative-active);
+    --variant-foreground-default: var(--appereance-negative-on-negative-default);
+    --variant-foreground-hover: var(--appereance-negative-on-negative-hover);
+    --variant-foreground-active: var(--appereance-negative-on-negative-active);
 }
 
-[data-role="warning"] {
-    --role-surface-default: var(--appereance-warning-default);
-    --role-surface-hover: var(--appereance-warning-hover);
-    --role--surface-active: var(--appereance-warning-active);
-    --role-foreground-default: var(--appereance-warning-on-warning-default);
-    --role-foreground-hover: var(--appereance-warning-on-warning-hover);
-    --role-foreground-active: var(--appereance-warning-on-warning-active);
+[data-variant="warning"] {
+    --variant-surface-default: var(--appereance-warning-default);
+    --variant-surface-hover: var(--appereance-warning-hover);
+    --variant--surface-active: var(--appereance-warning-active);
+    --variant-foreground-default: var(--appereance-warning-on-warning-default);
+    --variant-foreground-hover: var(--appereance-warning-on-warning-hover);
+    --variant-foreground-active: var(--appereance-warning-on-warning-active);
 }
 
-[data-role="info"] {
-    --role-surface-default: var(--appereance-info-default);
-    --role-surface-hover: var(--appereance-info-hover);
-    --role--surface-active: var(--appereance-info-active);
-    --role-foreground-default: var(--appereance-info-on-info-default);
-    --role-foreground-hover: var(--appereance-info-on-info-hover);
-    --role-foreground-active: var(--appereance-info-on-info-active);
+[data-variant="info"] {
+    --variant-surface-default: var(--appereance-info-default);
+    --variant-surface-hover: var(--appereance-info-hover);
+    --variant--surface-active: var(--appereance-info-active);
+    --variant-foreground-default: var(--appereance-info-on-info-default);
+    --variant-foreground-hover: var(--appereance-info-on-info-hover);
+    --variant-foreground-active: var(--appereance-info-on-info-active);
 }
 
-[data-role="utility"] {
-    --role-surface-default: var(--appereance-utility-default);
-    --role-surface-hover: var(--appereance-utility-hover);
-    --role--surface-active: var(--appereance-utility-active);
-    --role-foreground-default: var(--appereance-utility-on-utility-default);
-    --role-foreground-hover: var(--appereance-utility-on-utility-hover);
-    --role-foreground-active: var(--appereance-utility-on-utility-active);
+[data-variant="utility"] {
+    --variant-surface-default: var(--appereance-utility-default);
+    --variant-surface-hover: var(--appereance-utility-hover);
+    --variant--surface-active: var(--appereance-utility-active);
+    --variant-foreground-default: var(--appereance-utility-on-utility-default);
+    --variant-foreground-hover: var(--appereance-utility-on-utility-hover);
+    --variant-foreground-active: var(--appereance-utility-on-utility-active);
 }
 
-.role {
-    background-color: var(--surface-role-default);
-    color: var(--foreground-role-default);
+.variant {
+    background-color: var(--surface-variant-default);
+    color: var(--foreground-variant-default);
 }
 
-.role:hover {
-    background-color: var(--surface-role-hover);
-    color: var(--foreground-role-hover);
+.variant:hover {
+    background-color: var(--surface-variant-hover);
+    color: var(--foreground-variant-hover);
 }
 
-.role:active {
-    background-color: var(--surface-role-active);
-    color: var(--foreground-role-active);
+.variant:active {
+    background-color: var(--surface-variant-active);
+    color: var(--foreground-variant-active);
 }
